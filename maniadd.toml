@@ -1,254 +1,36 @@
-[[ArrayInterface]]
-deps = [ "LinearAlgebra", "Requires", "SparseArrays",]
-uuid = "4fba245c-0d91-5ea0-9b3e-6abc04ee57a9"
-
-[[AverageShiftedHistograms]]
-deps = [ "LinearAlgebra", "RecipesBase", "Statistics", "StatsBase", "UnicodePlots",]
-uuid = "77b51b56-6f8f-5c3a-9cb4-d71f9594ea6e"
-
-[[CEnum]]
-uuid = "fa961155-64e5-5f13-b03f-caf6b980ea82"
-
-[[CSV]]
-deps = [ "CategoricalArrays", "DataFrames", "Dates", "FilePathsBase", "Mmap", "Parsers", "PooledArrays", "Tables", "Unicode", "WeakRefStrings",]
-uuid = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
-
-[[Calculus]]
-deps = [ "LinearAlgebra",]
-uuid = "49dc2e85-a5d0-5ad3-a950-438e2897f1b9"
-
-[[CommonSubexpressions]]
-deps = [ "MacroTools", "Test",]
-uuid = "bbf7d656-a473-5ed7-a52c-81e309532950"
-
-[[CompilerSupportLibraries_jll]]
-deps = [ "Artifacts", "JLLWrappers", "Libdl", "Pkg",]
-uuid = "e66e0078-7015-5450-92f7-15fbd957f2ae"
-
-[[Crayons]]
-uuid = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
-
-[[DataValueInterfaces]]
-uuid = "e2d170a0-9d28-54be-80f0-106bbe20a464"
-
-[[DensityRatioEstimation]]
-deps = [ "LinearAlgebra", "Parameters", "Requires", "Statistics", "StatsBase",]
-uuid = "ab46fb84-d57c-11e9-2f65-6f72e4a7229f"
-
-[[DiffEqDiffTools]]
-deps = [ "ArrayInterface", "LinearAlgebra", "Requires", "SparseArrays", "StaticArrays",]
-uuid = "01453d9d-ee7c-5054-8395-0335cb756afa"
-
-[[DiffResults]]
-deps = [ "StaticArrays",]
-uuid = "163ba53b-c6d8-5494-b064-1a9d43ac40c5"
-
-[[DiffRules]]
-deps = [ "NaNMath", "Random", "SpecialFunctions",]
-uuid = "b552c78f-8df3-52c6-915a-8e097449b14b"
-
-[[Distances]]
-deps = [ "LinearAlgebra", "Statistics",]
-uuid = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
-
-[[Distributions]]
-deps = [ "FillArrays", "LinearAlgebra", "PDMats", "Printf", "QuadGK", "Random", "SpecialFunctions", "Statistics", "StatsBase", "StatsFuns",]
-uuid = "31c24e10-a181-5473-b8eb-7969acd0382f"
-
-[[Expat_jll]]
-deps = [ "Artifacts", "JLLWrappers", "Libdl", "Pkg",]
-uuid = "2e619515-83b5-522b-bb60-26c02a35a201"
-
-[[FilePathsBase]]
-deps = [ "Dates", "LinearAlgebra", "Printf", "Test", "UUIDs",]
-uuid = "48062228-2e41-5def-b9a4-89aafe57970f"
-
-[[FileWatching]]
-uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
-
-[[FillArrays]]
-deps = [ "LinearAlgebra", "Random", "SparseArrays",]
-uuid = "1a297f60-69ca-5386-bcde-b61e274b549b"
-
-[[ForwardDiff]]
-deps = [ "CommonSubexpressions", "DiffResults", "DiffRules", "NaNMath", "Random", "SpecialFunctions", "StaticArrays",]
-uuid = "f6369f11-7733-5829-9624-2563aa707210"
+[[DGGRID7_jll]]
+deps = [ "Artifacts", "GDAL_jll", "JLLWrappers", "Libdl", "Pkg",]
+uuid = "56fc471b-e449-5679-a438-44d065b4fb79"
 
 [[GDAL]]
 deps = [ "CEnum", "GDAL_jll", "MozillaCACerts_jll", "PROJ_jll",]
 uuid = "add2ef01-049f-52c4-9ee2-e494f65e021a"
 
-[[GEOS_jll]]
-deps = [ "Artifacts", "JLLWrappers", "Libdl", "Pkg",]
-uuid = "d604d12d-fa86-5845-992e-78dc15976526"
-
-[[IJulia]]
-deps = [ "Base64", "Conda", "Dates", "InteractiveUtils", "JSON", "Markdown", "MbedTLS", "Pkg", "Printf", "REPL", "Random", "SoftGlobalScope", "Test", "UUIDs", "ZMQ",]
-uuid = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
-
-[[JLLWrappers]]
-uuid = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
-
-[[JpegTurbo_jll]]
-deps = [ "Artifacts", "JLLWrappers", "Libdl", "Pkg",]
-uuid = "aacddb02-875f-59d6-b918-886e6ef4fbf8"
-
-[[LearnBase]]
-deps = [ "LinearAlgebra", "StatsBase",]
-uuid = "7f8f8fb0-2700-5f03-b4bd-41f8cfc144b6"
-
-[[LibCURL_jll]]
-deps = [ "LibSSH2_jll", "Libdl", "MbedTLS_jll", "Pkg", "Zlib_jll", "nghttp2_jll",]
-uuid = "deac9b47-8bc7-5906-a0fe-35ac56dc84c0"
+[[GDAL_jll]]
+deps = [ "Artifacts", "Expat_jll", "GEOS_jll", "JLLWrappers", "LibCURL_jll", "LibSSH2_jll", "Libdl", "Libtiff_jll", "MbedTLS_jll", "OpenJpeg_jll", "PROJ_jll", "Pkg", "SQLite_jll", "Zlib_jll", "Zstd_jll", "libgeotiff_jll", "nghttp2_jll",]
+uuid = "a7073274-a066-55f0-b90d-d619367d196c"
 
 [[LibGEOS]]
 deps = [ "CEnum", "GEOS_jll", "GeoInterface",]
 uuid = "a90b1aa1-3769-5649-ba7e-abc5a9d163eb"
 
-[[LibSSH2_jll]]
-deps = [ "Libdl", "MbedTLS_jll", "Pkg",]
-uuid = "29816b5a-b9ab-546f-933c-edad1886dfa8"
-
-[[Libtiff_jll]]
-deps = [ "Artifacts", "JLLWrappers", "JpegTurbo_jll", "Libdl", "Pkg", "Zlib_jll", "Zstd_jll",]
-uuid = "89763e89-9b03-5906-acba-b20f662cd828"
-
-[[LineSearches]]
-deps = [ "LinearAlgebra", "NLSolversBase", "NaNMath", "Parameters", "Printf",]
-uuid = "d3d80556-e9d4-5f37-9878-2ab0fcc64255"
-
-[[LittleCMS_jll]]
-deps = [ "JpegTurbo_jll", "Libdl", "Libtiff_jll", "Pkg",]
-uuid = "d3a379c0-f9a3-5b72-a4c0-6bf4d2e8af0f"
-
-[[LossFunctions]]
-deps = [ "InteractiveUtils", "LearnBase", "Markdown", "Random", "RecipesBase", "SparseArrays", "Statistics", "StatsBase", "Test",]
-uuid = "30fc2ffe-d236-52d8-8643-a9d8f7c094a7"
-
-[[MLJModelInterface]]
-deps = [ "Random", "ScientificTypes",]
-uuid = "e80e1ace-859a-464e-9ed9-23947d8ae3ea"
-
-[[MbedTLS]]
-deps = [ "Dates", "MbedTLS_jll", "Random", "Sockets",]
-uuid = "739be429-bea8-5141-9913-cc70e7f3736d"
-
-[[MbedTLS_jll]]
-deps = [ "Artifacts", "JLLWrappers", "Libdl", "Pkg",]
-uuid = "c8ffd9c3-330d-5841-b78e-0817d7145fa1"
-
-[[MozillaCACerts_jll]]
-deps = [ "Artifacts", "JLLWrappers", "Libdl", "Pkg",]
-uuid = "14a3606d-f60d-562e-9121-12d972cd8159"
-
-[[NLSolversBase]]
-deps = [ "Calculus", "DiffEqDiffTools", "DiffResults", "Distributed", "ForwardDiff",]
-uuid = "d41bc354-129a-5804-8e4c-c37616107c6c"
-
-[[NaNMath]]
-uuid = "77ba4419-2d1f-58cd-9bb1-8ffee604a2e3"
-
-[[NearestNeighbors]]
-deps = [ "Distances", "StaticArrays",]
-uuid = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
-
-[[OpenJpeg_jll]]
-deps = [ "Libdl", "Libtiff_jll", "LittleCMS_jll", "Pkg", "libpng_jll",]
-uuid = "643b3616-a352-519d-856d-80112ee9badc"
-
-[[OpenSpecFun_jll]]
-deps = [ "Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl", "Pkg",]
-uuid = "efe28fd5-8261-553b-a9e1-b2916fc3738e"
-
-[[Optim]]
-deps = [ "Compat", "FillArrays", "LineSearches", "LinearAlgebra", "NLSolversBase", "NaNMath", "Parameters", "PositiveFactorizations", "Printf", "SparseArrays", "StatsBase",]
-uuid = "429524aa-4258-5aef-a3af-852621145aeb"
-
-[[PDMats]]
-deps = [ "LinearAlgebra", "SparseArrays", "SuiteSparse", "Test",]
-uuid = "90014a1f-27ba-587c-ab20-58faa44d9150"
-
-[[PROJ_jll]]
-deps = [ "Artifacts", "JLLWrappers", "LibCURL_jll", "LibSSH2_jll", "Libdl", "Libtiff_jll", "MbedTLS_jll", "Pkg", "SQLite_jll", "Zlib_jll", "nghttp2_jll",]
-uuid = "58948b4f-47e0-5654-a9ad-f609743f8632"
-
-[[Parameters]]
-deps = [ "OrderedCollections", "UnPack",]
-uuid = "d96e819e-fc66-5662-9728-84c9c7592b0a"
-
-[[PositiveFactorizations]]
-deps = [ "LinearAlgebra",]
-uuid = "85a6dd25-e78a-55b7-8502-1745935b8125"
-
 [[Proj4]]
 deps = [ "CEnum", "PROJ_jll",]
 uuid = "9a7e659c-8ee8-5706-894e-f68f43bc57ea"
 
-[[QuadGK]]
-deps = [ "DataStructures", "LinearAlgebra",]
-uuid = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
+[[CEnum]]
+uuid = "fa961155-64e5-5f13-b03f-caf6b980ea82"
 
-[[Requires]]
-deps = [ "UUIDs",]
-uuid = "ae029012-a4dd-5104-9daa-d747884805df"
+[[JLLWrappers]]
+uuid = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
 
-[[Rmath]]
-deps = [ "Random", "Rmath_jll",]
-uuid = "79098fc4-a85e-5d69-aa6a-4863f24498fa"
+[[libgeotiff_jll]]
+deps = [ "Artifacts", "JLLWrappers", "Libdl", "Libtiff_jll", "PROJ_jll", "Pkg",]
+uuid = "06c338fa-64ff-565b-ac2f-249532af990e"
 
-[[Rmath_jll]]
+[[MozillaCACerts_jll]]
 deps = [ "Artifacts", "JLLWrappers", "Libdl", "Pkg",]
-uuid = "f50d1b31-88e8-58de-be2c-1cc44531875f"
-
-[[Rotations]]
-deps = [ "LinearAlgebra", "StaticArrays", "Statistics",]
-uuid = "6038ab10-8711-5258-84ad-4b1120ba62dc"
-
-[[SQLite_jll]]
-deps = [ "Artifacts", "JLLWrappers", "Libdl", "Pkg", "Zlib_jll",]
-uuid = "76ed43ae-9a5d-5a62-8c75-30186b810ce8"
-
-[[ScientificTypes]]
-uuid = "321657f4-b219-11e9-178b-2701a2544e81"
-
-[[SoftGlobalScope]]
-deps = [ "REPL",]
-uuid = "b85f4697-e234-5449-a836-ec8e2f98b302"
-
-[[SpecialFunctions]]
-deps = [ "OpenSpecFun_jll",]
-uuid = "276daf66-3868-5448-9aa4-cd146d93841b"
-
-[[StatsBase]]
-deps = [ "DataAPI", "DataStructures", "LinearAlgebra", "Missings", "Printf", "Random", "SortingAlgorithms", "SparseArrays", "Statistics",]
-uuid = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
-
-[[StatsFuns]]
-deps = [ "Rmath", "SpecialFunctions",]
-uuid = "4c63d2b9-4356-54db-8cca-17b64c39e42c"
-
-[[SuiteSparse]]
-deps = [ "Libdl", "LinearAlgebra", "Serialization", "SparseArrays",]
-uuid = "4607b0f0-06f3-5cda-b6b1-a6196a1729e9"
-
-[[UnPack]]
-uuid = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
-
-[[UnicodePlots]]
-deps = [ "Crayons", "Dates", "SparseArrays", "StatsBase",]
-uuid = "b8865327-cd53-5732-bb35-84acbb429228"
-
-[[WeakRefStrings]]
-deps = [ "DataAPI", "Random", "Test",]
-uuid = "ea10d353-3f73-51f8-a26c-33c1cb351aa5"
-
-[[ZMQ]]
-deps = [ "FileWatching", "Sockets", "ZeroMQ_jll",]
-uuid = "c2297ded-f4af-51ae-bb23-16f91089e4e1"
-
-[[ZeroMQ_jll]]
-deps = [ "Artifacts", "JLLWrappers", "Libdl", "Pkg", "libsodium_jll",]
-uuid = "8f1865be-045e-5c20-9c9f-bfbfb0764568"
+uuid = "14a3606d-f60d-562e-9121-12d972cd8159"
 
 [[Zlib_jll]]
 deps = [ "Artifacts", "JLLWrappers", "Libdl", "Pkg",]
@@ -258,19 +40,66 @@ uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
 deps = [ "Artifacts", "JLLWrappers", "Libdl", "Pkg",]
 uuid = "3161d3a3-bdf6-5164-811a-617609db77b4"
 
-[[libgeotiff_jll]]
-deps = [ "Artifacts", "JLLWrappers", "Libdl", "Libtiff_jll", "PROJ_jll", "Pkg",]
-uuid = "06c338fa-64ff-565b-ac2f-249532af990e"
+[[LibSSH2_jll]]
+deps = [ "Libdl", "MbedTLS_jll", "Pkg",]
+uuid = "29816b5a-b9ab-546f-933c-edad1886dfa8"
+
+[[SQLite_jll]]
+deps = [ "Artifacts", "JLLWrappers", "Libdl", "Pkg", "Zlib_jll",]
+uuid = "76ed43ae-9a5d-5a62-8c75-30186b810ce8"
+
+[[OpenJpeg_jll]]
+deps = [ "Libdl", "Libtiff_jll", "LittleCMS_jll", "Pkg", "libpng_jll",]
+uuid = "643b3616-a352-519d-856d-80112ee9badc"
+
+[[Expat_jll]]
+deps = [ "Artifacts", "JLLWrappers", "Libdl", "Pkg",]
+uuid = "2e619515-83b5-522b-bb60-26c02a35a201"
+
+[[Artifacts]]
+deps = [ "Pkg",]
+uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+
+[[nghttp2_jll]]
+deps = [ "Libdl", "Pkg",]
+uuid = "8e850ede-7688-5339-a07c-302acd2aaf8d"
+
+[[GEOS_jll]]
+deps = [ "Artifacts", "JLLWrappers", "Libdl", "Pkg",]
+uuid = "d604d12d-fa86-5845-992e-78dc15976526"
+
+[[MbedTLS_jll]]
+deps = [ "Artifacts", "JLLWrappers", "Libdl", "Pkg",]
+uuid = "c8ffd9c3-330d-5841-b78e-0817d7145fa1"
+
+[[Libtiff_jll]]
+deps = [ "Artifacts", "JLLWrappers", "JpegTurbo_jll", "Libdl", "Pkg", "Zlib_jll", "Zstd_jll",]
+uuid = "89763e89-9b03-5906-acba-b20f662cd828"
+
+[[PROJ_jll]]
+deps = [ "Artifacts", "JLLWrappers", "LibCURL_jll", "LibSSH2_jll", "Libdl", "Libtiff_jll", "MbedTLS_jll", "Pkg", "SQLite_jll", "Zlib_jll", "nghttp2_jll",]
+uuid = "58948b4f-47e0-5654-a9ad-f609743f8632"
+
+[[GeoInterface]]
+deps = [ "RecipesBase", "Test",]
+uuid = "cf35fbd7-0cd7-5166-be24-54bfbe79505f"
+
+[[LibCURL_jll]]
+deps = [ "LibSSH2_jll", "Libdl", "MbedTLS_jll", "Pkg", "Zlib_jll", "nghttp2_jll",]
+uuid = "deac9b47-8bc7-5906-a0fe-35ac56dc84c0"
+
+[[LittleCMS_jll]]
+deps = [ "JpegTurbo_jll", "Libdl", "Libtiff_jll", "Pkg",]
+uuid = "d3a379c0-f9a3-5b72-a4c0-6bf4d2e8af0f"
 
 [[libpng_jll]]
 deps = [ "Artifacts", "JLLWrappers", "Libdl", "Pkg", "Zlib_jll",]
 uuid = "b53b4c65-9356-5827-b1ea-8c7a1a84506f"
 
-[[libsodium_jll]]
+[[JpegTurbo_jll]]
 deps = [ "Artifacts", "JLLWrappers", "Libdl", "Pkg",]
-uuid = "a9144af2-ca23-56d9-984f-0d03f7b5ccf8"
+uuid = "aacddb02-875f-59d6-b918-886e6ef4fbf8"
 
-[[nghttp2_jll]]
-deps = [ "Libdl", "Pkg",]
-uuid = "8e850ede-7688-5339-a07c-302acd2aaf8d"
+[[RecipesBase]]
+uuid = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 
