@@ -1,4 +1,3 @@
-name: geopy2020
 channels:
   - conda-forge
   - defaults
