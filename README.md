@@ -12,7 +12,11 @@ Credits: https://allixender.github.io/30MapChallenge2020/day-04.html
 
 Credits to Uber for H3 example notebooks: https://github.com/uber/h3-py-notebooks/tree/master/notebooks
 
+H3 Intro:
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/allixender/dggs_t1/HEAD?filepath=h3_intro.ipynb)
+
+H3 Data Layers:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/allixender/dggs_t1/HEAD?filepath=h3_unified_data_layers.ipynb)
 
