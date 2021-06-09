@@ -47,6 +47,22 @@ uuid = "ade2ca70-3891-5945-98fb-dc099432e06a"
 deps = ["Mmap"]
 uuid = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 
+[[Artifacts]]
+deps = ["Pkg"]
+uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+
+[[GDAL_jll]]
+deps = ["Artifacts", "Expat_jll", "GEOS_jll", "JLLWrappers", "LibCURL_jll", "LibSSH2_jll", "Libdl", "Libtiff_jll", "MbedTLS_jll", "OpenJpeg_jll", "PROJ_jll", "Pkg", "SQLite_jll", "Zlib_jll", "Zstd_jll", "libgeotiff_jll", "nghttp2_jll"]
+git-tree-sha1 = "a7cbbcfca2bcdbda59dde266c223c479473aa679"
+uuid = "a7073274-a066-55f0-b90d-d619367d196c"
+version = "3.2.1+0"
+
+[[DGGRID7_jll]]
+deps = ["Artifacts", "GDAL_jll", "JLLWrappers", "Libdl", "Pkg"]
+git-tree-sha1 = "e71d450e2731463358e0cdd4b18fc5dbf15f9bab"
+uuid = "56fc471b-e449-5679-a438-44d065b4fb79"
+version = "0.9.0+0"
+
 [[Distributed]]
 deps = ["Random", "Serialization", "Sockets"]
 uuid = "8ba89e20-285c-5b6f-9357-94700520ee1b"
