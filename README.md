@@ -15,3 +15,13 @@ Credits to Uber for H3 example notebooks: https://github.com/uber/h3-py-notebook
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/allixender/dggs_t1/HEAD?filepath=h3_intro.ipynb)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/allixender/dggs_t1/HEAD?filepath=h3_unified_data_layers.ipynb)
+
+## More grids and geometries, incl. rHealPix
+
+Credits: https://allixender.github.io/30MapChallenge2020/day-10.html
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/allixender/dggs_t1/HEAD?filepath=more_grids.ipynb)
+
+## License
+
+The notebooks are made available under the MIT License.
