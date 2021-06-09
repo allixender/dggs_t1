@@ -1,0 +1,14 @@
+dependencies:
+  - matplotlib
+  - seaborn
+  - numpy
+  - pandas
+  - fortran-magic 
+  - cython
+  - rpy2
+  - pip
+  - pip:
+      - julia
+      - cffi_magic
+      
+  
