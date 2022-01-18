@@ -1,5 +1,7 @@
 # DGGS play ground
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5873218.svg)](https://doi.org/10.5281/zenodo.5873218)
+
 ## DGGRID7 from Julia language install demo.
 
 This is a demo showing how you can intermingle Python and Julia, to access resources from Julia.
