@@ -12,9 +12,7 @@ Credits: https://allixender.github.io/30MapChallenge2020/day-04.html
 
 ## Spatial Data Analysis with H3
 
-
-[![H3 DGGS Python full video](https://img.youtube.com/vi/K0iG4uDpEpg/0.jpg)]([[https://www.youtube.com/watch?v=K0iG4uDpEpg]([https://youtube.com/playlist?list=PLnRNODhZNeWJ8jeo_BAcqON0M9ntr8mMy](https://www.youtube.com/watch?v=K0iG4uDpEpg))]([https://youtube.com/playlist?list=PLnRNODhZNeWJ8jeo_BAcqON0M9ntr8mMy](https://www.youtube.com/watch?v=K0iG4uDpEpg)) "H3 DGGS Python full video")
-
+[![H3 DGGS Python full video](https://img.youtube.com/vi/K0iG4uDpEpg/0.jpg)](https://www.youtube.com/watch?v=K0iG4uDpEpg)
 
 Credits to Uber for H3 example notebooks: https://github.com/uber/h3-py-notebooks/tree/master/notebooks
 
