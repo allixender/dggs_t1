@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5873218.svg)](https://doi.org/10.5281/zenodo.5873218)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLnRNODhZNeWJ8jeo_BAcqON0M9ntr8mMy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## DGGRID7 from Julia language install demo.
 
 This is a demo showing how you can intermingle Python and Julia, to access resources from Julia.
