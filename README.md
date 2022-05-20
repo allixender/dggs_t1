@@ -2,8 +2,6 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5873218.svg)](https://doi.org/10.5281/zenodo.5873218)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLnRNODhZNeWJ8jeo_BAcqON0M9ntr8mMy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## DGGRID7 from Julia language install demo.
 
 This is a demo showing how you can intermingle Python and Julia, to access resources from Julia.
@@ -13,6 +11,10 @@ Credits: https://allixender.github.io/30MapChallenge2020/day-04.html
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/allixender/dggs_t1/HEAD?filepath=dggrid_base.ipynb)
 
 ## Spatial Data Analysis with H3
+
+
+[![H3 DGGS Python full video](https://img.youtube.com/vi/K0iG4uDpEpg/0.jpg)]([[https://www.youtube.com/watch?v=K0iG4uDpEpg]([https://youtube.com/playlist?list=PLnRNODhZNeWJ8jeo_BAcqON0M9ntr8mMy](https://www.youtube.com/watch?v=K0iG4uDpEpg))]([https://youtube.com/playlist?list=PLnRNODhZNeWJ8jeo_BAcqON0M9ntr8mMy](https://www.youtube.com/watch?v=K0iG4uDpEpg)) "H3 DGGS Python full video")
+
 
 Credits to Uber for H3 example notebooks: https://github.com/uber/h3-py-notebooks/tree/master/notebooks
 
