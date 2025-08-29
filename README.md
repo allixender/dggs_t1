@@ -2,13 +2,13 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5873218.svg)](https://doi.org/10.5281/zenodo.5873218)
 
-## DGGRID7 from Julia language install demo.
+## DGGRID7 
 
 This is a demo showing how you can intermingle Python and Julia, to access resources from Julia.
 
-Credits: https://allixender.github.io/30MapChallenge2020/day-04.html
+DGGRID needs to be installed, unfortunately it is currently not packaged here
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/allixender/dggs_t1/HEAD?filepath=dggrid_base.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/allixender/pangeo_dggs_2022/HEAD?filepath=dggrid_base.ipynb)
 
 ## Spatial Data Analysis with H3
 
@@ -18,17 +18,15 @@ Credits to Uber for H3 example notebooks: https://github.com/uber/h3-py-notebook
 
 H3 Intro:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/allixender/dggs_t1/HEAD?filepath=h3_intro.ipynb)
-
-H3 Data Layers:
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/allixender/dggs_t1/HEAD?filepath=h3_unified_data_layers.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/allixender/pangeo_dggs_2022/HEAD?filepath=h3_intro.ipynb)
 
 ## More grids and geometries, incl. rHealPix
 
-Credits: https://allixender.github.io/30MapChallenge2020/day-10.html
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/allixender/pangeo_dggs_2022/HEAD?filepath=more_grids.ipynb)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/allixender/dggs_t1/HEAD?filepath=more_grids.ipynb)
+## Sample global population raster into hexagons
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/allixender/pangeo_dggs_2022/HEAD?filepath=sample_raster.ipynb)
 
 ## License
 
